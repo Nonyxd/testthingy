@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.creditController">
+   <children>
+      <AnchorPane layoutX="14.0" prefHeight="249.0" prefWidth="317.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="165.0" layoutX="35.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../picture/nonylike.jpg" />
+               </image></ImageView>
+            <Label fx:id="nonLabel" layoutX="97.0" layoutY="211.0" text="Nony" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="88.0" layoutY="324.0" mnemonicParsing="false" onAction="#backy" text="back" />
+   </children>
+</AnchorPane>
